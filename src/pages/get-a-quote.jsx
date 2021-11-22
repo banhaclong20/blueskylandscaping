@@ -425,13 +425,13 @@ const ContactUs = () => {
                 <p className='mb-6 leading-relaxed'>
                   We called on a Wednesday; Andy came out the same day to look
                   at the property and gave us a written estimate. We paid a
-                  deposit and he told us he'd be back on Tuesday. He actually
-                  came back sooner than that, and mowed the front yard the next
-                  day and most of the back yard over the weekend! And then on
-                  Tuesday he showed up as scheduled with a big truck and helpers
-                  to remove our half-dead tree and do all the pruning and
-                  weeding. Very impressed with the service so far, and happy to
-                  have someone reliable to do ongoing maintenance.
+                  deposit and he told us he&apos;d be back on Tuesday. He
+                  actually came back sooner than that, and mowed the front yard
+                  the next day and most of the back yard over the weekend! And
+                  then on Tuesday he showed up as scheduled with a big truck and
+                  helpers to remove our half-dead tree and do all the pruning
+                  and weeding. Very impressed with the service so far, and happy
+                  to have someone reliable to do ongoing maintenance.
                 </p>
                 <a className='inline-flex items-center'>
                   <img

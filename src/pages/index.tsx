@@ -188,11 +188,11 @@ export default function HomePage() {
                 </h2>
 
                 <p className='mt-5 mb-8 text-gray-600'>
-                  Blue Sky Landscaping Renton was established in 2003 by Le's
-                  family after over 20 years of prior experience in landscaping
-                  and gardening. Our team is skilled in a variety of trades such
-                  as hardscape, softscape, planting, lighting, irrigation,
-                  flagstone, pavers, and much more.
+                  Blue Sky Landscaping Renton was established in 2003 by
+                  Le&apos;s family after over 20 years of prior experience in
+                  landscaping and gardening. Our team is skilled in a variety of
+                  trades such as hardscape, softscape, planting, lighting,
+                  irrigation, flagstone, pavers, and much more.
                 </p>
 
                 <div className='mt-auto'>
