@@ -58,56 +58,51 @@ export default function HomePage() {
             </h2>
 
             <div className='grid grid-cols-1 gap-4 mb-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6 xl:gap-8 md:mb-8'>
-              <a
-                href='#'
-                className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'
-              >
-                <Image
-                  src={yardCleanup}
-                  alt='Best Yard Clean Up in Renton, WA 98059'
-                  placeholder='blur'
-                  layout='fill'
-                  className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
-                />
-                <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
-                <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
-                  Yard Clean Up
-                </span>
-              </a>
-
-              <a
-                href='#'
-                className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'
-              >
-                <Image
-                  src={landscapingHardscapeConstruction}
-                  alt='Best Landscaping Hardscape Construction in Renton, WA 98059'
-                  placeholder='blur'
-                  layout='fill'
-                  className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
-                />
-                <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
-                <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
-                  Landscaping Hardscape Construction
-                </span>
-              </a>
-
-              <a
-                href='#'
-                className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'
-              >
-                <Image
-                  src={yardMaintenance}
-                  alt='Best Yard Maintenance in Renton, WA 98059'
-                  placeholder='blur'
-                  layout='fill'
-                  className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
-                />
-                <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
-                <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
-                  Maintenance
-                </span>
-              </a>
+              <Link href='/services'>
+                <a className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'>
+                  <Image
+                    src={yardCleanup}
+                    alt='Best Yard Clean Up in Renton, WA 98059'
+                    placeholder='blur'
+                    layout='fill'
+                    className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
+                  />
+                  <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
+                  <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
+                    Yard Clean Up
+                  </span>
+                </a>
+              </Link>
+              <Link href='/services'>
+                <a className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'>
+                  <Image
+                    src={landscapingHardscapeConstruction}
+                    alt='Best Landscaping Hardscape Construction in Renton, WA 98059'
+                    placeholder='blur'
+                    layout='fill'
+                    className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
+                  />
+                  <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
+                  <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
+                    Landscaping Hardscape Construction
+                  </span>
+                </a>
+              </Link>
+              <Link href='/services'>
+                <a className='relative flex items-end h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg group md:h-80'>
+                  <Image
+                    src={yardMaintenance}
+                    alt='Best Yard Maintenance in Renton, WA 98059'
+                    placeholder='blur'
+                    layout='fill'
+                    className='absolute inset-0 object-cover object-center w-full h-full transition duration-200 transform group-hover:scale-110'
+                  />
+                  <div className='absolute inset-0 opacity-50 pointer-events-none bg-gradient-to-t from-gray-800 via-transparent to-transparent'></div>
+                  <span className='relative inline-block mb-3 ml-4 text-sm text-white md:text-lg md:ml-5'>
+                    Maintenance
+                  </span>
+                </a>
+              </Link>
             </div>
 
             <div className='flex items-start justify-between gap-8 sm:items-center'>
@@ -136,7 +131,10 @@ export default function HomePage() {
               </h2>
 
               <p className='max-w-screen-md mx-auto text-center text-gray-500 md:text-lg'>
-                # 1 Landscaping | Construction services in Renton, WA 98059.
+                # 1 landscaping, construction services in Renton, WA 98059 |
+                Bellevue, WA 98009 | Bellevue, WA 98015 | Issaquah, WA 98027 |
+                Issaquah, WA 98029 | Kent, WA 98030 | Kirkland, WA 98033 |
+                Kirkland, WA 98034 | Kirkland, WA 98083
               </p>
             </div>
 

@@ -269,7 +269,7 @@ const Services = () => (
       </div>
 
       <div className='text-gray-600 body-font max-w-screen-xl px-4 md:px-8 mx-auto'>
-        <div className='container px-5 py-24 mx-auto'>
+        <div className='px-5 py-24 mx-auto'>
           <div className='flex flex-wrap w-full mb-5'>
             <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>
               <h1 className='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'>
@@ -285,7 +285,7 @@ const Services = () => (
           </div>
 
           <div className='bg-white py-6 sm:py-8 lg:py-12'>
-            <div className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
+            <div className='mx-auto'>
               <div className='grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6 xl:gap-8'>
                 <div className='flex flex-col bg-white border rounded-lg overflow-hidden'>
                   <div className='group h-48 md:h-64 block bg-gray-100 overflow-hidden relative'>

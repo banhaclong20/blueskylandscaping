@@ -65,7 +65,7 @@ const Footer = () => (
             Address
           </div>
 
-          <section className='text-white'>
+          <section className='text-gray-400'>
             <p>4909 NE 5th St</p>
             <p>Renton, Washington 98059</p>
           </section>
@@ -76,7 +76,7 @@ const Footer = () => (
             Contact Info
           </div>
 
-          <section className='text-white'>
+          <section className='text-gray-400'>
             <p>Phone: (425) 306-1212 (Andy)</p>
             <p>Email: blskylandscapes@gmail.com</p>
           </section>
@@ -89,17 +89,17 @@ const Footer = () => (
 
           <nav className='flex flex-col gap-4'>
             <Link href='/'>
-              <a className='text-gray-100 transition duration-100 hover:text-green-500 active:text-green-600'>
+              <a className='text-gray-400 transition duration-100 hover:text-green-500 active:text-green-600'>
                 Home
               </a>
             </Link>
             <Link href='/services'>
-              <a className='text-gray-100 transition duration-100 hover:text-green-500 active:text-green-600'>
+              <a className='text-gray-400 transition duration-100 hover:text-green-500 active:text-green-600'>
                 Services
               </a>
             </Link>
             <Link href='/contact-us'>
-              <a className='text-gray-100 transition duration-100 hover:text-green-500 active:text-green-600'>
+              <a className='text-gray-400 transition duration-100 hover:text-green-500 active:text-green-600'>
                 Contact Us
               </a>
             </Link>
