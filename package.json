@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev --openssl-legacy-provider",
-    "build": "next build --openssl-legacy-provider",
-    "start": "next start --openssl-legacy-provider",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
