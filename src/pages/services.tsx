@@ -12,7 +12,6 @@ import ServicesList from '../components/ServicesList';
 
 const yardCleanUpList = [
   'Tree pruning',
-  'Tree cutting',
   'Hedge trimming',
   'Shrub pruning',
   'Stump grinding',
@@ -24,7 +23,6 @@ const yardCleanUpList = [
   'Reducing overgrown plants',
   'Plant removal',
   'Plant beds',
-  'Pressure washing',
   'Mulching',
 ];
 
