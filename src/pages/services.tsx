@@ -14,7 +14,6 @@ const yardCleanUpList = [
   'Tree pruning',
   'Hedge trimming',
   'Shrub pruning',
-  'Stump grinding',
   'Vine pruning',
   'Weeding',
   'Mowing',
